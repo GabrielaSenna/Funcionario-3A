@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    font-family: monospace;
+}
+
+header{
+    background-color: blueviolet;
+    padding: 20px;
+}
+
+header > h2{
+    color: #fff;
+}
+
+.container{
+    margin: auto;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: 50%;
+}
+
+.row{
+    display: flex;
+}
+
+.container > img{
+    width: 100%;
+}
+
+footer{
+    padding: 24px;
+    background-color: blueviolet;
+    color: #fff;
+    display: flex;
+}
+
+@media screen and (max-width : 500px) {
+    footer{
+        display: block;
+    }
+}
